@@ -1,0 +1,16 @@
+# Passage logs are the user's own data
+deadreckon-store.json
+*.store.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+
+# Local environment overrides (never commit real values)
+.env

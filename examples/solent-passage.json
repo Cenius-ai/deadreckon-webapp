@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "origin_lat": 50.764,
+  "origin_lon": -1.297,
+  "legs": [
+    {
+      "id": 1,
+      "course_deg": 93.0,
+      "distance_nm": 6.2,
+      "start_lat": 50.764,
+      "start_lon": -1.297,
+      "end_lat": 50.758482,
+      "end_lon": -1.133984,
+      "cumulative_nm": 6.2,
+      "created_utc": "2024-06-01T08:41:00Z"
+    },
+    {
+      "id": 2,
+      "course_deg": 45.0,
+      "distance_nm": 3.4,
+      "start_lat": 50.758482,
+      "start_lon": -1.133984,
+      "end_lat": 50.798507,
+      "end_lon": -1.070631,
+      "cumulative_nm": 9.6,
+      "created_utc": "2024-06-01T08:52:00Z"
+    },
+    {
+      "id": 3,
+      "course_deg": 130.0,
+      "distance_nm": 2.1,
+      "start_lat": 50.798507,
+      "start_lon": -1.070631,
+      "end_lat": 50.776017,
+      "end_lon": -1.02826,
+      "cumulative_nm": 11.7,
+      "created_utc": "2024-06-01T09:24:00Z"
+    },
+    {
+      "id": 4,
+      "course_deg": 200.0,
+      "distance_nm": 1.8,
+      "start_lat": 50.776017,
+      "start_lon": -1.02826,
+      "end_lat": 50.747844,
+      "end_lon": -1.044465,
+      "cumulative_nm": 13.5,
+      "created_utc": "2024-06-01T09:51:00Z"
+    }
+  ],
+  "fixes": [
+    {
+      "id": 1,
+      "recorded_utc": "2024-06-01T09:00:00Z",
+      "lat": 50.764,
+      "lon": -1.297,
+      "course_deg": 93.0,
+      "speed_kn": 6.4,
+      "kind": "observed",
+      "offset_set_deg": 75.0,
+      "offset_drift_kn": 1.4
+    },
+    {
+      "id": 2,
+      "recorded_utc": "2024-06-01T10:00:00Z",
+      "lat": 50.7712,
+      "lon": -1.162,
+      "course_deg": 45.0,
+      "speed_kn": 5.8,
+      "kind": "observed",
+      "offset_set_deg": 75.0,
+      "offset_drift_kn": 1.4
+    },
+    {
+      "id": 3,
+      "recorded_utc": "2024-06-01T11:00:00Z",
+      "lat": 50.8339,
+      "lon": -1.062,
+      "course_deg": 45.0,
+      "speed_kn": 5.8,
+      "kind": "observed",
+      "offset_set_deg": 75.0,
+      "offset_drift_kn": 1.4
+    },
+    {
+      "id": 4,
+      "recorded_utc": "2024-06-01T12:30:00Z",
+      "lat": 50.945215,
+      "lon": -0.845758,
+      "course_deg": 45.0,
+      "speed_kn": 5.8,
+      "kind": "dr",
+      "offset_set_deg": 75.0,
+      "offset_drift_kn": 1.4
+    }
+  ],
+  "drift": {
+    "set_deg": 75.0,
+    "rate_kn": 1.4,
+    "updated_utc": "2024-06-01T08:35:00Z"
+  }
+}

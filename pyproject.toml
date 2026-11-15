@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deadreckon"
+version = "1.0.0"
+description = "Offline dead reckoning: course-and-distance leg table, DR fix log and current drift offset."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+# Optional convenience: the suite is plain unittest and needs nothing, but
+# `pip install -e .[test]` lets you run it with pytest too.
+test = ["pytest>=7.0"]
+
+[project.scripts]
+deadreckon = "deadreckon:main"
+
+[tool.setuptools]
+py-modules = ["deadreckon"]

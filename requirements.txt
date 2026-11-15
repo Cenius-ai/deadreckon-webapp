@@ -1,0 +1,4 @@
+# DeadReckon has no third-party dependencies: it is standard library only.
+# Install the `deadreckon` console script (optional) with:
+#   pip3 install --no-build-isolation --no-deps -e .
+# See INSTALL.md.  Nothing here needs to be fetched from a package index.
