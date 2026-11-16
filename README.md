@@ -41,7 +41,7 @@ See [`INSTALL.md`](INSTALL.md) for full setup and usage instructions.
 
 ## Architecture
 
-The repository contains 24 files of Full-stack app source, organised under `examples/`, `tests/`. Dependency management and data seeding are both handled by `./install.sh` — run it once, then start the server. Full setup details: [`INSTALL.md`](INSTALL.md).
+The repository contains 14 files of Full-stack app source, organised under `examples/`, `tests/`. Dependency management and data seeding are both handled by `./install.sh` — run it once, then start the server. Full setup details: [`INSTALL.md`](INSTALL.md).
 
 ## Usage guide
 
